@@ -1,8 +1,19 @@
-body {
-    text-align: center;
-    background: #fcfafa;
+#banner {
+    width: 100%;
 }
 
+.principal {
+    background: #ebe9e9;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
 
 p {
     text-align: center;    
@@ -15,4 +26,26 @@ p {
 em strong {
     color: red;
 }
+
+.beneficios {
+    background: white;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.itens {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.imgbeneficios {
+    width: 50%;    
+}
+
 
