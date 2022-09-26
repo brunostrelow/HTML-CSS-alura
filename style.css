@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    background: #fcfafa;
+}
+
+p {
+    text-align: center;    
+}
+
+em strong {
+    color: red;
+}
+
+#missao {
+    font-size: 20px;
+}
