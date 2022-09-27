@@ -2,13 +2,43 @@
     width: 100%;
 }
 
-.principal {
-    background: #ebe9e9;
-    padding: 30px;
+.caixa {
+    position: relative;
+    width: auto;
+    margin: 0 auto;
 }
 
 .titulo-principal {
     padding-left: 20px;
+}
+
+nav ul{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgba(255, 217, 0, 0.815);
+    text-decoration: underline;
+}
+
+.principal {
+    background: #ebe9e9;
+    padding: 30px;
 }
 
 .titulo-centralizado {
@@ -48,4 +78,14 @@ ul {
     width: 50%;    
 }
 
+footer {
+    text-align: center;
+    background: url(bg.jpg);
+    padding: 40px 0;
+}
 
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
+}
